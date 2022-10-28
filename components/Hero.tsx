@@ -16,7 +16,7 @@ function Hero({pageInfo}: Props) {
         delaySpeed:4000
     })
   return (
-    <div className='h-screen flex flex-col  items-center space-y-8 justify-center text-center overflow-hidden'>
+    <div className='h-screen flex flex-col items-center space-y-8 justify-center text-center overflow-hidden'>
         <BackgroundCercle/>
         <motion.img src={urlFor(pageInfo?.heroImage).url() }alt='ss' width={128} height={128} className='relative rounded-full mx-auto object-cover w-32 h-32 '/>
        <div className='z-20'>

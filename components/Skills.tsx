@@ -14,7 +14,7 @@ function Skills({skills}: Props) {
       Skills
     </h3>
 
-    <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over  a skill for currency proficiency</h3>
+    <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over a skill for currency proficiency</h3>
 
     <div className=" relative mt-32 md:mt-28  grid grid-cols-1 md:grid-cols-6 gap-2  ">
      

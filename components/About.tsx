@@ -39,8 +39,8 @@ className="h-fit flex relative flex-col text-center md:text-left md:flex-row max
 
 <div className="space-y-10 px-0 md:px-10 py-24">
   <h4 className="text-4xl font-semibold">
-    Here is a{" "}
-    <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
+    Here is a
+      <span className="underline decoration-[#F7AB0A]/50"> little </span>
     background
   </h4>
   <p className="text-base">

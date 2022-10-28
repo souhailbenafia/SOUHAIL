@@ -8,7 +8,7 @@ import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import { Experience, PageInfo, Project, Skill, Social } from '../typings'
-import { fetchExperiences } from '../utils/fetshExperiences'
+import { fetchExperience } from '../utils/fetshExperience'
 import { fetchPageInfo } from '../utils/fetshPageInfo'
 import { fetchProjects } from '../utils/fetshProject'
 import { fetchSkills } from '../utils/fetshSkill'
@@ -29,7 +29,6 @@ const Home = ({ pageInfo, experiences , projects , skills, socials }:Props) => {
       <Head>
         <title>Souhail Portfolio</title>
        
-     
       </Head>
 
       <Header socials={socials}/>
@@ -70,7 +69,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
   const pageInfo : PageInfo = await fetchPageInfo() ;
   const skills: Skill[] = await fetchSkills();
-  const experiences: Experience[] = await fetchExperiences();
+  const experiences: Experience[] = await fetchExperience();
   const projects: Project[] = await fetchProjects();
   const socials: Social[] = await fetchSocials();
 
